@@ -1,0 +1,14 @@
+p ~ h1{  /* general sibling selector (~) */
+    color: rgb(129, 28, 224);
+} 
+    color: darkred;*/
+
+p+h1{ /* adjacent sibling selector (+) */
+    color: brown;
+}
+.baba>h1{ /* child selector (>) */
+    color: blueviolet;
+}
+.baba h1{ /* descendant selector (space) */
+    color: brown;
+}
